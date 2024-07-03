@@ -14,13 +14,13 @@ const Footer = () => (
                 <p className="uppercase text-white md:mb-6">Sitemap</p>
                 <ul className="list-reset mb-6">
                     <li className="mt-2 inline-block mr-2 md:block md:mr-0">
-                    <Link to="#services" className="no-underline hover:underline text-white hover:text-pink-500">Services</Link>
+                        <Link to="#services" className="no-underline hover:underline text-white hover:text-pink-500">Services</Link>
                     </li>
                     <li className="mt-2 inline-block mr-2 md:block md:mr-0">
-                    <Link to="#about" className="no-underline hover:underline text-white hover:text-pink-500">About Us</Link>
+                        <Link to="#about" className="no-underline hover:underline text-white hover:text-pink-500">About Us</Link>
                     </li>
                     <li className="mt-2 inline-block mr-2 md:block md:mr-0">
-                    <Link to="#why" className="no-underline hover:underline text-white hover:text-pink-500">Why</Link>
+                        <Link to="#why" className="no-underline hover:underline text-white hover:text-pink-500">Why</Link>
                     </li>
                 </ul>
             </div>
