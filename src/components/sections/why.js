@@ -1,4 +1,7 @@
 import * as React from 'react'
+import { CgProfile } from 'react-icons/cg';
+import { FaChartPie, FaDatabase, FaLocationArrow } from 'react-icons/fa';
+import { IoIosPeople } from 'react-icons/io';
 
 export default function Why() {
     return (
@@ -13,7 +16,10 @@ export default function Why() {
                 </div>
                 <div className="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink">
                     <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-                        <div className="w-full font-bold text-xl text-gray-800 px-6">
+                        <div className='flex mx-auto lg:mx-0 my-6 py-4 px-8 justify-center'>
+                            <CgProfile size={60} className='text-cyan-400'/>
+                        </div>
+                        <div className="flex justify-center mb-4 w-full font-bold text-xl text-gray-800 px-6">
                             Keahlian Profesional
                         </div>
                         <p className="text-gray-800 text-base px-6 mb-5">
@@ -23,7 +29,10 @@ export default function Why() {
                 </div>
                 <div className="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink">
                     <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-                        <div className="w-full font-bold text-xl text-gray-800 px-6">
+                        <div className='flex mx-auto lg:mx-0 my-6 py-4 px-8 justify-center'>
+                            <FaChartPie size={60} className='text-orange-400'/>
+                        </div>
+                        <div className="flex justify-center mb-4 w-full font-bold text-xl text-gray-800 px-6">
                             Solusi yang Disesuaikan
                         </div>
                         <p className="text-gray-800 text-base px-6 mb-5">
@@ -33,7 +42,10 @@ export default function Why() {
                 </div>
                 <div className="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink">
                     <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-                        <div className="w-full font-bold text-xl text-gray-800 px-6">
+                        <div className='flex mx-auto lg:mx-0 my-6 py-4 px-8 justify-center'>
+                            <FaLocationArrow size={60} className='text-blue-400'/>
+                        </div>
+                        <div className="flex justify-center mb-4 w-full font-bold text-xl text-gray-800 px-6">
                             Teknologi Terdepan
                         </div>
                         <p className="text-gray-800 text-base px-6 mb-5">
@@ -43,7 +55,10 @@ export default function Why() {
                 </div>
                 <div className="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink">
                     <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-                        <div className="w-full font-bold text-xl text-gray-800 px-6">
+                        <div className='flex mx-auto lg:mx-0 my-6 py-4 px-8 justify-center'>
+                            <IoIosPeople size={60} className='text-green-400'/>
+                        </div>
+                        <div className="flex justify-center mb-4 w-full font-bold text-xl text-gray-800 px-6">
                             Dedikasi terhadap Klien
                         </div>
                         <p className="text-gray-800 text-base px-6 mb-5">
