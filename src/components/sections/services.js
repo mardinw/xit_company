@@ -7,7 +7,7 @@ export default function Services() {
         <>
         <div id='services' className='bg-white border-b py-8'>
             <div className="container mx-auto flex flex-wrap pt-4 pb-12">
-                <h2 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
+                <h2 className="w-full mt-12 my-2 text-5xl font-bold leading-tight text-center text-gray-800">
                 Services
                 </h2>
                 <div className="w-full mb-4">

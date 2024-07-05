@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-export default function About() {
+export default function Contact() {
     return (
         <>
         <svg className="wave-top" viewBox="0 0 1439 147" version="1.1" xmlns="http://www.w3.org/2000/svg">
@@ -24,16 +24,17 @@ export default function About() {
                 </g>
             </g>
         </svg>
-        <div id='about' className="container mx-auto text-center py-6 mb-12">
-            <h2 className="w-full mt-12 my-2 text-5xl font-bold leading-tight text-center text-white">
-                About Us
+        <div id='contact' className="container mx-auto text-center py-6 mb-12">
+            <h2 className="w-full my-2 text-5xl font-bold leading-tight text-center text-white">
+                Contact Us
             </h2>
             <div className="w-full mb-4">
                 <div className="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
             </div>
-            <h3 className="m-12 text-lg p-8 content-center text-white leading-tight">
-                Kami berkomitmen untuk membantu bisnis Anda tumbuh dengan menyediakan layanan yang terintegrasi dan berorientasi pada hasil. Dengan tim profesional yang berdedikasi dan berpengalaman, kami siap untuk memberikan solusi yang disesuaikan dengan kebutuhan unik perusahaan Anda. Kami menggabungkan teknologi canggih dengan keahlian terbaik untuk mencapai efisiensi dan kesuksesan bagi klien kami.
+            <h3 className="my-4 text-lg content-center text-white leading-tight">
+                Anda dapat menghubungi kami melalui email dibawah ini
             </h3>
+            <button className='mx-auto lg:mx-0 bg-green-500 text-white font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow'>Email: xtraindotama@gmail.com</button>
         </div>
         </>
     );

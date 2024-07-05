@@ -1,3 +1,4 @@
+import { StaticImage } from 'gatsby-plugin-image';
 import * as React from 'react'
 
 export default function Hero() {
@@ -13,7 +14,13 @@ export default function Hero() {
                         Menyediakan Solusi Terintegrasi untuk Bisnis Anda
                     </p>
                 </div>
-                <div className='w-full md:w-3/5 py-6 text-center'></div>
+                <div className='w-full md:w-3/5 py-6 z-10 text-center'>
+                   <StaticImage 
+                        src='../../images/concept.png'
+                        alt="Concept Website"
+                        className='w-full md:w-4/5 z-50'
+                   /> 
+                </div>
             </div>
         </div>
         <div className='relative -mt-12 lg:-mt-24'>

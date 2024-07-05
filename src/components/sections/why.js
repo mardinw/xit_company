@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { CgProfile } from 'react-icons/cg';
-import { FaChartPie, FaDatabase, FaLocationArrow } from 'react-icons/fa';
+import { FaChartPie, FaLocationArrow } from 'react-icons/fa';
 import { IoIosPeople } from 'react-icons/io';
 
 export default function Why() {
@@ -8,7 +8,7 @@ export default function Why() {
         <>
         <div id='why' className='bg-white border-b py-8'>
             <div className="container mx-auto flex flex-wrap pt-4 pb-12">
-                <h2 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
+                <h2 className="w-full mt-12 my-2 text-5xl font-bold leading-tight text-center text-gray-800">
                 Mengapa Memilih Kami?
                 </h2>
                 <div className="w-full mb-4">
